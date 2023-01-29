@@ -4,18 +4,8 @@
 
 Team: Diego Fernandez, Rachael McCue, Parker DeShazo
 
-[Presentation link]
+[Slide Deck](https://docs.google.com/presentation/d/17G9n6wys8Iu3T0q2sCgcOy3Fa13mw6SsH-ouRQe6H10/edit?usp=sharing)
 
-## Navigating this repository
-Folders: \
-  zippedData\
-      Includes all csvs, and zipped database \ 
-  notebooks \ 
-      Data exploration notebooks: initial_data_exploration, secondary_data_exploration\
-      Master data set resides in: inflation_adjusted_to_budget_master_dataset \
-      Data Analysis: boxplots_piechart_scatter_plots_gross_rev_and_ROI, talent_recommendations, determine_best_release_month_of_year \
-  images \
-  Slide Deck pdf
 
 ## Overview
 Microsoft will be entering the film industry, and we were tasked with analzying some data sets to set them up for success on their first film. Using domain knowledge, and the datasets provided below, we drew insights about the movie industry, genres, creative talent, and release dates that have shown to be successful. 
@@ -25,6 +15,15 @@ Data is reviewed from:\
   The Numbers\
   The Movie Database
   
+## Navigating this repository
+
+| Folder Name | Contents    |
+| ----------- | ----------- |
+| notebooks   | Code & output file production  |
+| images      | Plots & images     |
+| zipped_data  | Raw zipped dataset |
+| plotting_data  | Master dataset  |
+
 
 ## Business Understanding
 Microsoft, while a head honcho is many other facets, is the underdog in the film industry. They have the capital to produce a film, but perhaps not the experience. In order for Microsoft to insert themselves into the $209B industry, we studied what would be a successful safe-bet first movie. What genres are proven to be successful? What time of year should you release a film? Who should you hire to produce the film? 
@@ -34,7 +33,7 @@ We used total revenue to locate successful genres to tap into, as well as return
 
 ## Data Understanding and Analysis
 
-Our insights were retrieved by creating a master data set with the following parameters: a budget of at least $10 million to rule out the small or independent filmmakers, dropped any data that did not have a worldwide gross income datapoint, _____________. 
+Our insights were retrieved by creating a master data set with the following parameters: a budget of at least $10 million to rule out the small or independent filmmakers and dropped any data that did not have a worldwide gross income datapoint.
 
 The master dataset inclues the following information:\
   Release Date\
